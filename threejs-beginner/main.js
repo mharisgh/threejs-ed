@@ -10,6 +10,7 @@ const material = new THREE.MeshStandardMaterial({
 })
 const mesh = new THREE.Mesh(geometry,material);
 scene.add(mesh)
+// add a comment
 
 // Camera
 const camera = new THREE.PerspectiveCamera(50, 800, 600)
